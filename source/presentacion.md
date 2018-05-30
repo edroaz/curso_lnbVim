@@ -1,103 +1,66 @@
-% Laboratorio de supercómputo y visualización en paralelo
+% Linux de -1 a 0
 % Eduardo Romero Arzate
-% Abril 16, 2018
+% Mayo 31, 2018
+----------
+# Historia de GNU/LINUX
 
-# ¿Qué hay detras de la puerta?
-## Yoltla
-\begin{center}
-\huge Yoltlamaltini: "Semillero del saber o conocimiento"
-\end{center}
+##  proyecto gnu y software libre
 
+##  linux kernel
 
-#  ¿Qué es una supercomputadora?
+-------------
+# terminal y shell
 
-## En la cultura popular
-\begin{center}
-\includegraphics[width=0.35\textwidth]{viki.jpg}
-\includegraphics[width=0.35\textwidth]{hal.jpg}
-\end{center}
-\begin{center}
-\includegraphics[width=0.45\textwidth]{deth.png}
-\end{center}
+## bash
 
-## En terminos simples
-\begin{center}
-\includegraphics[width=0.80\textwidth]{sc.jpg}
-\end{center}
+## manual del manual
 
+## sistema de archivos
 
-##  Laptop vs Yoltla
+### alias de disrectorios
 
-|                       | Yoltla     | laptop   | Equivalencia |
-| :---------------      | -----:     | :------- | -----:       |
-| Núcleos               | 6,400      | 4        | 1600 laps.   |
-| Memoria RAM  (distr.) | 30,500 GB  | 8 GB     | 3813 laps.   |
-| Almacenamiento (comp. | 114,000 GB | 1,000 GB | 114  laps.   |
+### tab completion
 
-# ¿Para qué uso una supercomputadora?
+## salir
 
-##
-\begin{center}
-\huge Dos tipos de aplicaciones
-\end{center}
+### comandos
 
-## Con programas convencionales (seriales)
-\begin{center}
-\includegraphics[width=0.80\textwidth]{bored.jpg}
-\end{center}
+### ssh
 
-## Con programas  paralelos
-\begin{center}
-\includegraphics[width=0.80\textwidth]{work.jpg}
-\end{center}
+### cd
 
-## Cuestión de tiempo
-\begin{center}
-\includegraphics[width=0.80\textwidth]{job.jpg}
-\end{center}
+### pwd
 
-## Tipos de Aplicaciones
-\begin{center}
-\includegraphics[width=0.35\textwidth]{clima.jpg}
-\includegraphics[width=0.35\textwidth]{market.jpg}
-\end{center}
-\begin{center}
-\includegraphics[width=0.35\textwidth]{car.jpg}
-\includegraphics[width=0.35\textwidth]{anima.jpg}
-\end{center}
+### ls
+
+### cp
+
+### mv
+
+### rm
+
+### mkdir
+
+### cat
+
+### grep
+
+### column
+
+### tree
+
+### wget
+
+### diff
+
+### wc
+
+# vim
 
 
-## Experimentos de Química
+
+
 \begin{center}
 \includegraphics[width=0.65\textwidth]{molecule.png}
 \end{center}
-
-## Experimentos de Física
-\begin{center}
-\includegraphics[width=0.80\textwidth]{hole.jpg}
-\end{center}
-
-# Yoltla
-## ¿Cuál es la arquitectura de Yoltla?
-### Es una maquina de memoria distribuida
-\begin{center}
-\includegraphics[width=0.80\textwidth]{yolt.jpg}
-\end{center}
-
-## ¿Por qué GNU/Linux?
-\begin{center}
-\includegraphics[width=0.50\textwidth]{tux.jpg}
-\includegraphics[width=0.50\textwidth]{gnu.png}
-\end{center}
-
-## Lancad
-\begin{center}
-\includegraphics[width=0.80\textwidth]{lancad.jpg}
-\end{center}
-
-##
-\begin{center}
-\huge Esta es la última diapositiva. Gracias
-\end{center}
-
 
