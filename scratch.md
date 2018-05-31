@@ -6,12 +6,12 @@ que puedan usar vim
 
 #temas
 	+ historia de linux
-        - gnu
-            - software libre
-            - proyecto gnu
+        + unix
+        - gnu y software libre
         - linux
-            - ¿qué es un kernel?
-	+ terminal y shell
+        - Distribuciones
+        -
+        + terminal y shell
         + bash
         + estructura de un comando
         + como leer el man

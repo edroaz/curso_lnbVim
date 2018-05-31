@@ -128,7 +128,6 @@ $endif$
 $if(date)$
 \date{$date$}
 $endif$
-\titlegraphic{\includegraphics[scale=0.06]{logo.png}}
 
 
 \begin{document}
