@@ -140,7 +140,121 @@ cp -R
 
 # Vim (VI IMproved)
 ##
-continuará...
+
+\begin{center}
+\includegraphics[width=0.65\textwidth]{images/vim.png}
+\end{center}
+
+# ¿Lo más básico de lo básico?
+## piedra rosetta
+|                            |                     |
+| ----------:                | :---------------    |
+| **Crear un archivo nuevo** | $ vim nuevo_archivo |
+| **Insertar texto**         | i   (Insert)        |
+| Seleccionar (modo visual)  | v   (Visual)        |
+| Copiar                     | y   (Yank)          |
+| Pegar                      | p   (Paste)         |
+| Guardar                    | :w   (Write)        |
+| Salir                      | :q   (Quit)         |
+| Forzar salida              | :q!   (Quit!)       |
+| **Guardar y Salir**        | :wq   (WriteQuit)   |
+
+
+# Los modos de vim
+## Modos principales
+|                      |            |
+| ------:              | :------    |
+| **Editar (default)** | \<esc\>    |
+| Insertar             | i          |
+| Visual               | v          |
+| Visual de bloque     | \<CTRL\> v |
+| **Comando**          | <esc>:     |
+
+## Modo editar
+### **El modo estrella de Vim**
+Vim habla... En inglés
+
+* Es como crear "oraciones"
+
+## ¿cómo hablar con vim?
+
+
+| Verbos              |          | Sustantivos/Movimientos     |        |
+| -----:              | :------- | -------:                    | :----- |
+| **Yank (copiar)**   | y        | **Word (palabra)**          | w      |
+| **Delete (borrar)** | d        | **Back (palabra anterior)** | b      |
+| Cambiar             | c        | 'til (hasta)                | t      |
+| Indentar            | <        | Find (encontrar)            | f      |
+|                     |          | Parrafo                     | p      |
+|                     |          | Principo de linea           | 0      |
+|                     |          | Final de linea              | $      |
+###
+[verbo] [número] [sustantivo]
+
+## otras palabras
+| Adjetivos         |        | Especiales      |            |
+| ------:           | :----- | ------:         | :-----     |
+| **Número**        | \#     | Borrar linea    | dd         |
+| Inner (dentro de) | i      | Copiar linea    | yy         |
+|                   |        | Idem, Lo mismo  | .          |
+|                   |        | Undo (Deshacer) | u          |
+|                   |        | Redo (Rehacer)  | \<CTRL\> r |
+
+## Modo comando
+**Se accede con ':'**
+
+comandos propios de Vim como:
+
+- Guardar (w)
+- Salir (q)
+- set [opción]
+- read [file]
+- split y vsplit
+- Sustitución (s///)(sed)
+
+## extras
+- macros
+- incrementos
+- cambiar a mayusculas
+- abrir un manual
+- ejecutar un comando de bash
+
+## Encontrar y Reemplazar
+
+La sintaxis:
+
+    : [Rango]s/{patron}/{reemplazo}/{opciones}
+
+Rango:
+
+- lin,lfin : Sección
+- % : todo el documento
+-   : la line actual
+
+opciones:
+
+- g : global, todas las ocurrencias por linea
+- c : preguntar confirmación
+- I : sensibilidad a las mayusculas
+
+## Ejemplos
+
+    : s/conejitos esponjosos/angeles descarnados de la noche/g
+
+    : 15,23s/guerra/amor/g
+
+    : %s/Shakespeare/Marlowe/gcI
+
+## Recomendaciones
+Para ampliar el conocimiento y aprovechar el insomnio
+sugiero:
+
+- El manual de bash
+- [El arte del terminal](https://github.com/jlevy/the-art-of-command-line/blob/master/README-es.md)
+- El comando en linux **vimtutor**
+- El comando :help dentro de vim
+- El libro **Pro Vim** de Mark McDonnell
+- el link [your problem with vim is that you don't grok vi](https://gist.github.com/nifl/1178878)
 
 
 
