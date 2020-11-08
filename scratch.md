@@ -4,7 +4,7 @@ que sepan qué es linux
 qué puedan hacer tareas simples de administración
 que puedan usar vim
 
-#temas
+# temas
 
 	+ historia de linux
         + unix
