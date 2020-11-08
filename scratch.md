@@ -5,6 +5,7 @@ qué puedan hacer tareas simples de administración
 que puedan usar vim
 
 #temas
+
 	+ historia de linux
         + unix
         - gnu y software libre
